@@ -9,7 +9,7 @@ void main() {
           backgroundColor: Colors.deepPurpleAccent,
         ),
         backgroundColor: const Color.fromARGB(255, 232, 183, 241),
-        body: Center(child: Image(image: NetworkImage("https://i.pinimg.com/736x/a5/b7/76/a5b7765d35b3d1379b48cc10f20f39d6.jpg"))),
+        body: Center(child: Image(image: AssetImage('images/stitch2.jpg'))),
       ),
     ),
   );
