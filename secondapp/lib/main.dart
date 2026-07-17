@@ -25,6 +25,14 @@ class myapp extends StatelessWidget {
               color: Colors.lightBlueAccent,
               child: Text("Nada"),
                ),
+              Container(
+                width: 100,
+                height: 100,
+                margin: EdgeInsets.all(30),
+                padding: EdgeInsets.all(20),
+                color: Colors.purple,
+                child: Text("Nadod"),
+              ),
          ] ),
         )
         ),
